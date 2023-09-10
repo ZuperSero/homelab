@@ -1,0 +1,4 @@
+---
+collections:
+  - name: community.crypto
+    version: '2.15.1'  # Use the version number that suits your needs

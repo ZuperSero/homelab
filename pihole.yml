@@ -1,0 +1,10 @@
+---
+- name: Test Inventory
+  hosts: pi4-1
+  become: yes  # This is optional; use if you require elevated privileges
+  gather_facts: true
+  vars_files:
+    - /root/.ansible/homelab_secrets.yml
+
+  roles:
+    - name: homelab-pihole

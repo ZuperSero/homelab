@@ -1,0 +1,5 @@
+---
+- src: "git+ssh://git@github.com/ZuperSero/homelab-pihole.git"
+  scm: git
+  name: homelab-pihole
+  version: master
