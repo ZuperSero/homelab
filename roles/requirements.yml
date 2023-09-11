@@ -3,3 +3,7 @@
   scm: git
   name: homelab-pihole
   version: master
+- src: "git+ssh://git@github.com/ZuperSero/homelab-nginx.git"
+  scm: git
+  name: homelab-nginx
+  version: master
